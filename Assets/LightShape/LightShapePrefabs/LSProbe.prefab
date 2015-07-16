@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  m_Layer: 0
+  m_Name: centerPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400002}
+  - 114: {fileID: 11400006}
+  - 114: {fileID: 11400004}
+  - 114: {fileID: 11400002}
+  - 135: {fileID: 13500000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: LSProbe
+  m_TagString: CubeProbe
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400002}
+  m_RootOrder: 0
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400000}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7e2d8b02cff8455da68d5c4a5e9df92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightShapeProbe: {fileID: 11400006}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96dc78846495d4375944d7c35189e170, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightShapeProbe: {fileID: 11400006}
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 281034c29565f4c4e8cafe39e9d9529c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  applyPerObjectInGame: 0
+  myCubeMap: {fileID: 0}
+  myObjects: []
+  useForDynamic: 0
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b1d4e24db1740129b9865a8e93a295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myIndex: 0
+  LightShapeManager: {fileID: 0}
+  LightShapeAssignGame: {fileID: 11400004}
+  gizColor:
+    r: 0
+    g: .5
+    b: 1
+    a: .5
+  gizScale: 1
+  myCameras: []
+  primaryBrightness: 1
+  secondaryBrightness: 1
+  contrastR: 1
+  contrastG: 1
+  contrastB: 1
+  mid: .5
+  saturation: 1
+  brightness: 0
+  BGColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  TintColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  renderLight: 0
+  lightShape: {fileID: 100000, guid: d38707d341bee41579b1544ed72d8fc1, type: 2}
+  lightScaleX: 5
+  lightScaleY: 5
+  lightRot: 0
+  myLight: {fileID: 0}
+  renderAltLight: 0
+  altLightShape: {fileID: 100000, guid: d1d6ebd1b3f1a4e729171c4de2fd3d3a, type: 2}
+  altLightScaleX: 20
+  altLightScaleY: 20
+  altLightRot: 0
+  myBackLight: {fileID: 0}
+  lightShapeColor:
+    r: .5
+    g: .5
+    b: .5
+    a: 1
+  altShapeColor:
+    r: 0
+    g: .100000001
+    b: .200000003
+    a: 1
+  overRideLightColor: 0
+  overRideAltLightColor: 0
+  myCubeMap: {fileID: 0}
+  groundShape: {fileID: 100000, guid: d1d6ebd1b3f1a4e729171c4de2fd3d3a, type: 2}
+  myCollider: {fileID: 13500000}
+  centerPos: {fileID: 400000}
+  keepConnections: 0
+  myObjects: []
+  previewBall: {fileID: 0}
+  rePosition: 1
+  preview: 0
+  hasGround: 0
+  groundColor:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  groundScale: 1
+  applyPerObjectInGame: 1
+  renderRelections: 1
+  reflectedColor:
+    r: .100000001
+    g: .100000001
+    b: .100000001
+    a: 1
+  gatherAll: 0
+  excludeMe: []
+  AltMethod: {fileID: 11400000}
+  cubeMap: 0
+  useForDynamic: 0
+  presetType: 0
+  presetTypes:
+  - 4f6e65204c69676874
+  - 436861726163746572
+  presetInt: 0000000001000000
+--- !u!135 &13500000
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 3
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100002}
+  m_IsPrefabParent: 1

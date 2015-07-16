@@ -1,0 +1,92 @@
+Racing events:
+
+input.keydown.up
+input.keyup.up
+input.keydown.down
+input.keyup.down
+input.keydown.left
+input.keyup.right
+input.keydown.left
+input.keyup.left
+
+input.screen.acceleration.down [Button GO]
+input.screen.acceleration.up [Button GO]
+input.screen.breaking.down [Button GO]
+input.screen.breaking.up [Button GO]
+input.screen.time.down [Button GO]
+input.screen.time.up [Button GO]
+input.screen.camera.down [Button GO]
+input.screen.camera.up [Button GO]
+input.screen.pause
+
+update.gui.distance [GO with PlayerCarBehaviour.cs]
+update.gui.time [GO with DayTime.cs]
+update.camera.switch1 [GO with camera]
+update.camera.switch2 [GO with camera]
+update.camera.switch3 [GO with camera]
+update.car.health [GO with PlayerCarBehaviour.cs]
+update.inapp
+
+update.color.selected.red
+update.color.selected.blue
+update.color.selected.yellow
+update.color.selected.black
+
+car.ai.spawned [car GO]
+car.ai.destroyed [car GO]
+car.ai.needdestroy [car GO]
+car.player.immortal.start
+car.player.immortal.end
+car.player.death [GO with PlayerCarBehaviour.cs]
+
+level.restart
+level.load.menu
+
+gui.hide
+gui.screen.game.show
+gui.screen.splash
+gui.screen.bg
+gui.screen.main
+gui.screen.comment
+gui.screen.car
+gui.screen.select.car1
+gui.screen.select.car2
+gui.screen.select.car3
+gui.screen.color
+gui.screen.game
+gui.screen.game.show
+gui.screen.findistance
+gui.screen.pause
+gui.screen.button.resume
+
+PlayerPrefs data:
+CarModel [1..3] int
+CarColor [1..4] int
+Score (int)
+
+Analytics screens:
+ad.requestInterstital
+ad.showInterstital
+ad.IAS.show.[blockName]
+ad.IAS.click.[blockName]
+screen.menu.splash
+screen.menu.main
+screen.menu.comment
+screen.menu.carSelecting
+screen.menu.selectCar1
+screen.menu.selectCar2
+screen.menu.selectCar3
+screen.menu.colorSelecting
+screen.menu.selectColorRed
+screen.menu.selectColorBlue
+screen.menu.selectColorYellow
+screen.menu.selectColorBlack
+screen.game.start
+screen.main.pause
+screen.main.restart
+screen.main.loadMenu
+screen.main.playerDeath
+
+InApp:
+inapp.car2
+inapp.car3

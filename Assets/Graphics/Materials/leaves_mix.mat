@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: leaves_mix
+  m_Shader: {fileID: 10703, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: dca8e8f45fd48438888fc0cf00cf9497, type: 3}
+          m_Scale: {x: 1, y: 250}
+          m_Offset: {x: 0, y: -0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: 8ce40f0bbdf9a47f1ac4991c522b66ac, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DecalTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _tex0
+        second:
+          m_Texture: {fileID: 2800000, guid: 2430d6029705442c39a9f577880ae636, type: 3}
+          m_Scale: {x: 1, y: 250}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _tex1
+        second:
+          m_Texture: {fileID: 2800000, guid: cdddd158aded74819bfe01c361728614, type: 3}
+          m_Scale: {x: 1, y: 250}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Texture2
+        second:
+          m_Texture: {fileID: 2800000, guid: 2430d6029705442c39a9f577880ae636, type: 3}
+          m_Scale: {x: 1, y: 250}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BlendTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 2430d6029705442c39a9f577880ae636, type: 3}
+          m_Scale: {x: 1, y: 250}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTexA
+        second:
+          m_Texture: {fileID: 2800000, guid: 5147c9b700ea34eafa885570067053e2, type: 3}
+          m_Scale: {x: 1, y: 250}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMapA
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTexB
+        second:
+          m_Texture: {fileID: 2800000, guid: 2430d6029705442c39a9f577880ae636, type: 3}
+          m_Scale: {x: 1, y: 250}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMapB
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Sand
+        second:
+          m_Texture: {fileID: 2800000, guid: 5147c9b700ea34eafa885570067053e2, type: 3}
+          m_Scale: {x: 1, y: 250}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _TerrainFloor
+        second:
+          m_Texture: {fileID: 2800000, guid: 2430d6029705442c39a9f577880ae636, type: 3}
+          m_Scale: {x: 1, y: 250}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .0487719364
+      data:
+        first:
+          name: _Blend
+        second: .0714285448
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .83088237, g: .83088237, b: .83088237, a: 1}
+      data:
+        first:
+          name: _EmisColor
+        second: {r: .200000003, g: .200000003, b: .200000003, a: 0}

@@ -1,0 +1,85 @@
+fileFormatVersion: 2
+guid: 2e98b4f4db1441a4e9bc2f440fbe48cf
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: JunkCar_B
+    100002: //RootNode
+    100004: JunkCar_B_Wheel_Front_L
+    100006: JunkCar_B_Wheel_Rear_R
+    100008: JunkCar_B_Wheel_Front_R
+    100010: JunkCar_B_Wheel_Rear_L
+    400000: JunkCar_B
+    400002: //RootNode
+    400004: JunkCar_B_Wheel_Front_L
+    400006: JunkCar_B_Wheel_Rear_R
+    400008: JunkCar_B_Wheel_Front_R
+    400010: JunkCar_B_Wheel_Rear_L
+    2300000: JunkCar_B
+    2300002: JunkCar_B_Wheel_Front_L
+    2300004: JunkCar_B_Wheel_Rear_R
+    2300006: JunkCar_B_Wheel_Front_R
+    2300008: JunkCar_B_Wheel_Rear_L
+    3300000: JunkCar_B
+    3300002: JunkCar_B_Wheel_Front_L
+    3300004: JunkCar_B_Wheel_Rear_R
+    3300006: JunkCar_B_Wheel_Front_R
+    3300008: JunkCar_B_Wheel_Rear_L
+    4300000: JunkCar_B_Wheel_Front_L
+    4300002: JunkCar_B_Wheel_Rear_L
+    4300004: JunkCar_B_Wheel_Rear_R
+    4300006: JunkCar_B_Wheel_Front_R
+    4300008: JunkCar_B
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  userData: 
